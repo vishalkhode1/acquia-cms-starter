@@ -1,0 +1,30 @@
+# Ignore configuration files that may contain sensitive information
+docroot/sites/*/settings.php
+
+# Ignore paths that may contain user-generated content
+docroot/sites/*/files
+docroot/sites/*/public
+docroot/sites/*/private
+docroot/sites/*/files-public
+docroot/sites/*/files-private
+
+# Ignore paths that may contain temporary files
+docroot/sites/*/translations
+docroot/sites/*/tmp
+docroot/sites/*/cache
+
+# Ignore testing related files
+docroot/sites/simpletest
+
+# Ignore drupal core (if not versioning drupal sources)
+docroot/core
+vendor
+
+# Ignore contributed modules
+docroot/modules/contrib
+
+# Ignore contributed profiles
+docroot/profiles/contrib
+
+# Ignore contributed themes
+docroot/themes/contrib
