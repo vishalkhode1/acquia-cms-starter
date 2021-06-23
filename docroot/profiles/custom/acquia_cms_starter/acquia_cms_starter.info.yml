@@ -16,10 +16,10 @@ distribution:
 # add or remove other modules here as necessary for your custom profile.
 install:
   - acquia_cms_common
-  - acquia_cms_search
   - acquia_cms_article
   - acquia_cms_image
   - acquia_cms_document
+  - acquia_cms_event
   - acquia_cms_person
   - acquia_cms_place
   - acquia_cms_toolbar

@@ -4,106 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c56b833fc404e45679ab043b89286fd6",
+    "content-hash": "4f51078f60daf7ea7138f6bba5ca3fa2",
     "packages": [
-        {
-            "name": "acquia/cohesion",
-            "version": "6.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acquia/cohesion.git",
-                "reference": "7e9a7be653309dcd43a8726164b0cc00a70d80d6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/7e9a7be653309dcd43a8726164b0cc00a70d80d6",
-                "reference": "7e9a7be653309dcd43a8726164b0cc00a70d80d6",
-                "shasum": ""
-            },
-            "require": {
-                "cweagans/composer-patches": "^1.6",
-                "drupal/entity_reference_revisions": "^1.7",
-                "drupal/imce": "^2.2",
-                "drupal/token": "^1.5",
-                "ext-json": "*"
-            },
-            "require-dev": {
-                "acquia/coding-standards": "^0.4.1",
-                "behat/mink": "^1.7",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-                "phpunit/phpunit": "^6.5",
-                "symfony/phpunit-bridge": "^4.3"
-            },
-            "suggest": {
-                "drupal/admin_toolbar": "Provides a better UX for the standard admin toolbar",
-                "drupal/context": "Provides a UI for contexts.",
-                "drupal/google_analytics": "Provides integration with Google Analytics",
-                "drupal/menu_item_extras": "Make the Menu Link Content entity fully fieldable.",
-                "drupal/menu_link_attributes": "This module allows you to add attributes to your menu links or their wrapping <li> elements.",
-                "drupal/request_data_conditions": "Defines a set of conditions via the Drupal 8 Conditions Plugin API for use with the context module",
-                "drupal/search_api": "Provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine.",
-                "drupal/views_infinite_scroll": "Provides infinite scroll functionality to Views",
-                "drupal/webform": "This module allows you to use webforms."
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9"
-                    }
-                },
-                "enable-patching": true
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Acquia Engineering",
-                    "homepage": "https://www.acquia.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Site Studio",
-            "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.5.1"
-            },
-            "time": "2021-05-13T12:47:32+00:00"
-        },
-        {
-            "name": "acquia/cohesion-theme",
-            "version": "6.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "9dd42c1b00df7f5c45d8807bff9661d2cfd0167e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/9dd42c1b00df7f5c45d8807bff9661d2cfd0167e",
-                "reference": "9dd42c1b00df7f5c45d8807bff9661d2cfd0167e",
-                "shasum": ""
-            },
-            "type": "drupal-theme",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Acquia Engineering",
-                    "homepage": "https://www.acquia.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Site Studio minimal theme",
-            "support": {
-                "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.5.1"
-            },
-            "time": "2021-05-13T12:47:55+00:00"
-        },
         {
             "name": "acquia/drupal-environment-detector",
             "version": "v1.4.0",
@@ -1312,54 +1214,6 @@
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
-            "name": "cweagans/composer-patches",
-            "version": "1.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/9888dcc74993c030b75f3dd548bb5e20cdbd740c",
-                "reference": "9888dcc74993c030b75f3dd548bb5e20cdbd740c",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "composer/composer": "~1.0 || ~2.0",
-                "phpunit/phpunit": "~4.6"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "cweagans\\Composer\\Patches"
-            },
-            "autoload": {
-                "psr-4": {
-                    "cweagans\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Cameron Eagans",
-                    "email": "me@cweagans.net"
-                }
-            ],
-            "description": "Provides a way to patch Composer packages.",
-            "support": {
-                "issues": "https://github.com/cweagans/composer-patches/issues",
-                "source": "https://github.com/cweagans/composer-patches/tree/1.7.1"
-            },
-            "time": "2021-06-08T15:12:46+00:00"
-        },
-        {
             "name": "davedevelopment/stiphle",
             "version": "0.9.2",
             "source": {
@@ -1784,7 +1638,7 @@
         },
         {
             "name": "drupal/acquia_cms_article",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_article.git",
@@ -1802,14 +1656,14 @@
             "type": "drupal-module",
             "description": "Provides an Article content type and related configuration.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_article/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_article/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_article/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
             "name": "drupal/acquia_cms_common",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_common.git",
@@ -1839,14 +1693,14 @@
             },
             "description": "Handles shared functionality for Acquia CMS.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_common/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_common/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_common/issues"
             },
             "time": "2021-06-10T11:38:39+00:00"
         },
         {
             "name": "drupal/acquia_cms_document",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_document.git",
@@ -1865,14 +1719,40 @@
             "type": "drupal-module",
             "description": "Provides a Document media type and related configuration.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_document/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_document/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_document/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
+            "name": "drupal/acquia_cms_event",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/acquia_cms_event.git",
+                "reference": "e986781976b6d8bd665f68a5f04bc9c4ea18a859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/acquia_cms_event/zipball/e986781976b6d8bd665f68a5f04bc9c4ea18a859",
+                "reference": "e986781976b6d8bd665f68a5f04bc9c4ea18a859",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/acquia_cms_place": "^1.0",
+                "drupal/schema_metatag": "^1.7"
+            },
+            "type": "drupal-module",
+            "description": "Provides an Event content type and related configuration.",
+            "support": {
+                "source": "https://github.com/acquia/acquia_cms_event/tree/v1.2.5",
+                "issues": "https://github.com/acquia/acquia_cms_event/issues"
+            },
+            "time": "2021-06-14T19:55:34+00:00"
+        },
+        {
             "name": "drupal/acquia_cms_image",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_image.git",
@@ -1894,14 +1774,14 @@
             "type": "drupal-module",
             "description": "Provides an Image media type and related configuration.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_image/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_image/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_image/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
             "name": "drupal/acquia_cms_person",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_person.git",
@@ -1920,14 +1800,14 @@
             "type": "drupal-module",
             "description": "Provides a Person content type, a structured data representation of people associated with a website or organization.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_person/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_person/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_person/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
             "name": "drupal/acquia_cms_place",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_place.git",
@@ -1951,75 +1831,14 @@
             "type": "drupal-module",
             "description": "Provides a Place content type and related configuration.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_place/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_place/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_place/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
-            "name": "drupal/acquia_cms_search",
-            "version": "v1.2.4",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:acquia/acquia_cms_search.git",
-                "reference": "a2a5fd97070dc4af6814f1d3c2b5c7ed986418ee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia_cms_search/zipball/a2a5fd97070dc4af6814f1d3c2b5c7ed986418ee",
-                "reference": "a2a5fd97070dc4af6814f1d3c2b5c7ed986418ee",
-                "shasum": ""
-            },
-            "require": {
-                "drupal/acquia_cms_article": "^1.0",
-                "drupal/acquia_cms_site_studio": "^1.0",
-                "drupal/search_api": "1.18"
-            },
-            "type": "drupal-module",
-            "description": "Provides powerful search capabilities to the site.",
-            "support": {
-                "source": "https://github.com/acquia/acquia_cms_search/tree/v1.2.4",
-                "issues": "https://github.com/acquia/acquia_cms_search/issues"
-            },
-            "time": "2021-06-10T11:38:42+00:00"
-        },
-        {
-            "name": "drupal/acquia_cms_site_studio",
-            "version": "v1.2.4",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:acquia/acquia_cms_site_studio.git",
-                "reference": "251d9f943ba651bc4ff28ece4331e274eaae33fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia_cms_site_studio/zipball/251d9f943ba651bc4ff28ece4331e274eaae33fa",
-                "reference": "251d9f943ba651bc4ff28ece4331e274eaae33fa",
-                "shasum": ""
-            },
-            "require": {
-                "acquia/cohesion": "^6.5",
-                "acquia/cohesion-theme": "^6.5",
-                "drupal/config_ignore": "^2.3"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^10"
-                    }
-                }
-            },
-            "description": "Handles code for Site Studio Installation & Related Configurations.",
-            "support": {
-                "source": "https://github.com/acquia/acquia_cms_site_studio/tree/v1.2.4",
-                "issues": "https://github.com/acquia/acquia_cms_site_studio/issues"
-            },
-            "time": "2021-06-10T11:38:42+00:00"
-        },
-        {
             "name": "drupal/acquia_cms_toolbar",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_toolbar.git",
@@ -2038,14 +1857,14 @@
             "type": "drupal-module",
             "description": "Acquia CMS styling brought to admin toolbar.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_toolbar/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_toolbar/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_toolbar/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
             "name": "drupal/acquia_cms_tour",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_tour.git",
@@ -2063,14 +1882,14 @@
             "type": "drupal-module",
             "description": "Provides a tour page for Acquia CMS.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_tour/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_tour/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_tour/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
             "name": "drupal/acquia_cms_video",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:acquia/acquia_cms_video.git",
@@ -2089,7 +1908,7 @@
             "type": "drupal-module",
             "description": "Provides a Video media type and related configuration.",
             "support": {
-                "source": "https://github.com/acquia/acquia_cms_video/tree/v1.2.4",
+                "source": "https://github.com/acquia/acquia_cms_video/tree/v1.2.5",
                 "issues": "https://github.com/acquia/acquia_cms_video/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
@@ -3351,65 +3170,6 @@
             "homepage": "https://www.drupal.org/project/entity_clone",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_clone"
-            }
-        },
-        {
-            "name": "drupal/entity_reference_revisions",
-            "version": "1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/entity_reference_revisions.git",
-                "reference": "8.x-1.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.9.zip",
-                "reference": "8.x-1.9",
-                "shasum": "e1c51bdea495eb3b458130d6f0a00c347f5637df"
-            },
-            "require": {
-                "drupal/core": "^8.7.7 || ^9"
-            },
-            "require-dev": {
-                "drupal/diff": "1.x-dev"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.9",
-                    "datestamp": "1614805871",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "Frans",
-                    "homepage": "https://www.drupal.org/user/514222"
-                },
-                {
-                    "name": "jeroen.b",
-                    "homepage": "https://www.drupal.org/user/1853532"
-                },
-                {
-                    "name": "miro_dietiker",
-                    "homepage": "https://www.drupal.org/user/227761"
-                }
-            ],
-            "description": "Entity Reference Revisions",
-            "homepage": "https://www.drupal.org/project/entity_reference_revisions",
-            "support": {
-                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
             }
         },
         {
