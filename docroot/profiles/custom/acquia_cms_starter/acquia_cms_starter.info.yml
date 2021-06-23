@@ -22,9 +22,14 @@ install:
   - acquia_cms_document
   - acquia_cms_person
   - acquia_cms_place
+  - acquia_cms_page
+  - acquia_cms_event
+  - acquia_cms_site_studio
   - acquia_cms_toolbar
   - acquia_cms_tour
   - acquia_cms_video
+  - acquia_cms_audio
+  - acquia_cms_support
   - acquia_purge
   - address
   - admin_toolbar_tools
@@ -83,5 +88,5 @@ install:
 # List any themes that should be installed as part of the profile installation.
 # Note that this will not set any theme as the default theme.
 themes:
-  - olivero
-  - claro
+  - vani
+  - gin
