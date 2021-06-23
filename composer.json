@@ -23,13 +23,21 @@
         { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_document.git" },
         { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_toolbar.git" },
         { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_video.git" },
-        { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_tour.git" }
+        { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_tour.git" },
+        { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_support.git" },
+        { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_audio.git" },
+        { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_page.git" },
+        { "type": "vcs", "url": "git@github.com:acquia/acquia_cms_event.git" }
     ],
     "require": {
         "composer/installers": "^1.9",
         "drupal/acquia_cms_article": "^1",
+        "drupal/acquia_cms_audio": "^1",
         "drupal/acquia_cms_document": "^1",
+        "drupal/acquia_cms_event": "^1",
+        "drupal/acquia_cms_page": "^1",
         "drupal/acquia_cms_search": "^1",
+        "drupal/acquia_cms_support": "^1",
         "drupal/acquia_cms_toolbar": "^1",
         "drupal/acquia_cms_tour": "^1",
         "drupal/acquia_cms_video": "^1",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c56b833fc404e45679ab043b89286fd6",
+    "content-hash": "1fa56f2700e2ee26e30dd55073f929fa",
     "packages": [
         {
             "name": "acquia/cohesion",
@@ -1808,6 +1808,31 @@
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
+            "name": "drupal/acquia_cms_audio",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/acquia_cms_audio.git",
+                "reference": "8274b1472b3cc5ffc0c91f3db86c2ced49737e23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/acquia_cms_audio/zipball/8274b1472b3cc5ffc0c91f3db86c2ced49737e23",
+                "reference": "8274b1472b3cc5ffc0c91f3db86c2ced49737e23",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/acquia_cms_common": "^1.0"
+            },
+            "type": "drupal-module",
+            "description": "Provides an Audio media type and related configuration.",
+            "support": {
+                "source": "https://github.com/acquia/acquia_cms_audio/tree/v1.2.5",
+                "issues": "https://github.com/acquia/acquia_cms_audio/issues"
+            },
+            "time": "2021-06-10T11:38:42+00:00"
+        },
+        {
             "name": "drupal/acquia_cms_common",
             "version": "v1.2.4",
             "source": {
@@ -1871,6 +1896,32 @@
             "time": "2021-06-10T11:38:42+00:00"
         },
         {
+            "name": "drupal/acquia_cms_event",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/acquia_cms_event.git",
+                "reference": "e986781976b6d8bd665f68a5f04bc9c4ea18a859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/acquia_cms_event/zipball/e986781976b6d8bd665f68a5f04bc9c4ea18a859",
+                "reference": "e986781976b6d8bd665f68a5f04bc9c4ea18a859",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/acquia_cms_place": "^1.0",
+                "drupal/schema_metatag": "^1.7"
+            },
+            "type": "drupal-module",
+            "description": "Provides an Event content type and related configuration.",
+            "support": {
+                "source": "https://github.com/acquia/acquia_cms_event/tree/v1.2.5",
+                "issues": "https://github.com/acquia/acquia_cms_event/issues"
+            },
+            "time": "2021-06-14T19:55:34+00:00"
+        },
+        {
             "name": "drupal/acquia_cms_image",
             "version": "v1.2.4",
             "source": {
@@ -1896,6 +1947,33 @@
             "support": {
                 "source": "https://github.com/acquia/acquia_cms_image/tree/v1.2.4",
                 "issues": "https://github.com/acquia/acquia_cms_image/issues"
+            },
+            "time": "2021-06-10T11:38:42+00:00"
+        },
+        {
+            "name": "drupal/acquia_cms_page",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/acquia_cms_page.git",
+                "reference": "20efb84d79f254e176735c69b0e7fa3ff8e01c8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/acquia_cms_page/zipball/20efb84d79f254e176735c69b0e7fa3ff8e01c8c",
+                "reference": "20efb84d79f254e176735c69b0e7fa3ff8e01c8c",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/acquia_cms_image": "^1.0",
+                "drupal/acquia_cms_site_studio": "^1.0",
+                "drupal/field_group": "^3"
+            },
+            "type": "drupal-module",
+            "description": "Provides an unstructured Page content type and related configuration.",
+            "support": {
+                "source": "https://github.com/acquia/acquia_cms_page/tree/v1.2.5",
+                "issues": "https://github.com/acquia/acquia_cms_page/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
@@ -2014,6 +2092,31 @@
             "support": {
                 "source": "https://github.com/acquia/acquia_cms_site_studio/tree/v1.2.4",
                 "issues": "https://github.com/acquia/acquia_cms_site_studio/issues"
+            },
+            "time": "2021-06-10T11:38:42+00:00"
+        },
+        {
+            "name": "drupal/acquia_cms_support",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/acquia_cms_support.git",
+                "reference": "28f9e38b62ed31ef77c2e03696d0471813376235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/acquia_cms_support/zipball/28f9e38b62ed31ef77c2e03696d0471813376235",
+                "reference": "28f9e38b62ed31ef77c2e03696d0471813376235",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/acquia_cms_common": "^1.0"
+            },
+            "type": "drupal-module",
+            "description": "Compare the config that ships with Acquia CMS with the active config on the site.",
+            "support": {
+                "source": "https://github.com/acquia/acquia_cms_support/tree/v1.2.5",
+                "issues": "https://github.com/acquia/acquia_cms_support/issues"
             },
             "time": "2021-06-10T11:38:42+00:00"
         },
